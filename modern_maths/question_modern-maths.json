@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "chapter": "algebra",
+    "title": "If x + 1/x = 3, find x^2 + 1/x^2.",
+    "options": ["7", "5", "9", "6"],
+    "answer": 0,
+    "difficulty": "Medium",
+    "solution": "Square both sides: (x + 1/x)^2 = 9 → x^2 + 1/x^2 + 2 = 9 → x^2 + 1/x^2 = 7."
+  },
+  {
+    "id": 2,
+    "chapter": "algebra",
+    "title": "Solve for x: x^2 - 5x + 6 = 0.",
+    "options": ["1, 6", "2, 3", "3, 2", "1, 5"],
+    "answer": 1,
+    "difficulty": "Easy",
+    "solution": "Factor: (x-2)(x-3) = 0 → x = 2, 3."
+  },
+  {
+    "id": 3,
+    "chapter": "algebra",
+    "title": "If (x-1)(x-2) = 0, find x.",
+    "options": ["1", "2", "1 or 2", "0"],
+    "answer": 2,
+    "difficulty": "Easy",
+    "solution": "Either x-1=0 → x=1 or x-2=0 → x=2."
+  },
+  {
+    "id": 4,
+    "chapter": "algebra",
+    "title": "If 2x + 3 = 7, find x.",
+    "options": ["1", "2", "3", "4"],
+    "answer": 1,
+    "difficulty": "Easy",
+    "solution": "2x + 3 = 7 → 2x = 4 → x = 2."
+  }
+]

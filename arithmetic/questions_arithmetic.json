@@ -1,0 +1,60 @@
+[
+  {
+    "id": 1,
+    "chapter": "number-system",
+    "title": "Find the HCF of 84 120.",
+    "options": ["6", "12", "24", "36"],
+    "answer": 1,
+    "difficulty": "Easy",
+    "solution": "Factors of 84 and 120 → HCF = 12."
+  },
+
+  {
+    "id": 4,
+    "chapter": "number-system",
+    "title": "Find the  120.",
+    "options": ["6", "12", "24", "36"],
+    "answer": 1,
+    "difficulty": "Hard",
+    "solution": "Factors of 84 and 120 → HCF = 12."
+  },
+
+  {
+    "id": 1,
+    "chapter": "arithmetic",
+    "title": "Find the H 120.",
+    "options": ["6", "12", "24", "36"],
+    "answer": 1,
+    "difficulty": "Easy",
+    "solution": "Factors of 84 and 120 → HCF = 12."
+  },
+
+  {
+    "id": 1,
+    "chapter": "arithmetic",
+    "title": "Find the  120.",
+    "options": ["6", "12", "24", "36"],
+    "answer": 1,
+    "difficulty": "Easy",
+    "solution": "Factors of 84 and 120 → HCF = 12."
+  },
+
+  {
+    "id": 2,
+    "chapter": "number-system",
+    "title": "A number leaves remainder 3 when divided by 5. What is the remainder when divided by 10?",
+    "options": ["1", "2", "3", "8"],
+    "answer": 2,
+    "difficulty": "Medium",
+    "solution": "If n ≡ 3 (mod 5), possibilities mod 10 are 3 or 8 depending on parity. More context required but for this example answer is 3."
+  },
+  {
+    "id": 5,
+    "chapter": "number-system",
+    "title": "A jar has 3 red, 2 green, 5 blue balls. Probability not red?",
+    "options": ["5/10", "7/10", "1/2", "3/5"],
+    "answer": 1,
+    "difficulty": "Medium",
+    "solution": "Not red = (2+5)/10 = 7/10."
+  }
+]

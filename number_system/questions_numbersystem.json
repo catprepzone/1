@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1,
+    "chapter": "number system",
+    "title": "If n is any positive integer, then n³ - n is divisible",
+    "options": [
+      "Always by 12",
+      "Never by 12",
+      "Always by 6",
+      "Never by 6"
+    ],
+    "answer": 2,
+    "difficulty": "Medium",
+    "solution": "n³ - n = n(n² - 1) = (n - 1)n(n + 1). This is the product of three consecutive numbers. So at least one number is even and one number is a multiple of 3. So the product is always divisible by 6."
+  },
+  {
+    "id": 2,
+    "chapter": "number system",
+    "title": "If R is an integer between 1 & 9, P - R = 2370, what is the value of R? I. P is divisible by 4. II. P is divisible by 9.",
+    "options": [
+      "if the question can be answered with the help of statement I alone",
+      "if the question can be answered with the help of statement II alone",
+      "if both, statement I and statement II are needed to answer the question",
+      "if the statement cannot be answered even with the help of both the statements"
+    ],
+    "answer": 1,
+    "difficulty": "Medium",
+    "solution": "From the question we can figure out that P lies between 2371 and 2379. Using statement I: P = 2372 or 2376. Using statement II: P = 2376. Hence, statement II alone is sufficient to get a unique value of R."
+  },
+  {
+    "id": 3,
+    "chapter": "number system",
+    "title": "x, y and z are three positive odd integers, is x + z divisible by 4? I. y - x = 2. II. z - y = 2.",
+    "options": [
+      "if the question can be answered with the help of statement I alone",
+      "if the question can be answered with the help of statement II alone",
+      "if both, statement I and statement II are needed to answer the question",
+      "if the statement cannot be answered even with the help of both the statements"
+    ],
+    "answer": 2,
+    "difficulty": "Medium",
+    "solution": "As none of the statement gives information about all three – x, y and z, they alone are not sufficient to answer the question. Using both statements together: x, y and z are three consecutive odd integers. Therefore, x + z is not divisible by 4."
+  },
+  {
+    "id": 4,
+    "chapter": "number system",
+    "title": "Let k be a positive integer such that k + 4 is divisible by 7. Then the smallest positive integer n, greater than 2, such that k + 2n is divisible by 7 equals",
+    "options": [
+      "9",
+      "7",
+      "5",
+      "3"
+    ],
+    "answer": 0,
+    "difficulty": "Medium",
+    "solution": "a = k + 4 is divisible by 7, b = k + 2n is divisible by 7. b - a = 2n - 4 is divisible by 7. 2n - 4 = 0 or 7 or 14 ... For minimum integral value of n, 2n - 4 = 14, n = 9."
+  },
+  {
+    "id": 5,
+    "chapter": "number system",
+    "title": "If x is a positive integer such that 2x + 12 is perfectly divisible by x, then the number of possible values of x is",
+    "options": [
+      "2",
+      "5",
+      "6",
+      "12"
+    ],
+    "answer": 2,
+    "difficulty": "Medium",
+    "solution": "If (2x + 12) is perfectly divisible by x, then (2x + 12)/x has to be an integer as x is an integer. Now if we divide, the expression simplifies to (2 + 12/x). The only way in which this expression would be an integer is when 12/x is an integer or if 12 is perfectly divisible by x. This is possible if x takes either of these values: 1, 2, 3, 4, 6, 12. Hence, the answer is 6 values."
+  },
+  {
+    "id": 6,
+    "chapter": "number system",
+    "title": "A positive integer is said to be a prime number if it is not divisible by any positive integer other than itself and 1. Let p be a prime number greater than 5. Then (p² - 1) is",
+    "options": [
+      "never divisible by 6",
+      "always divisible by 6, and may or may not be divisible by 12",
+      "always divisible by 12, and may or may not be divisible by 24",
+      "always divisible by 24"
+    ],
+    "answer": 3,
+    "difficulty": "Medium",
+    "solution": "As each prime number greater than or equal to 3 is of the form 6k ± 1, where k is a natural number, p = 6k ± 1. p² - 1 = (6k ± 1)² - 1 = 12k(3k ± 1). Above number is always divisible by 24 irrespective of value of k."
+  },
+  {
+    "id": 7,
+    "chapter": "number system",
+    "title": "The number of positive integers not greater than 100, which are not divisible by 2, 3 or 5 is",
+    "options": [
+      "26",
+      "18",
+      "31",
+      "None"
+    ],
+    "answer": 0,
+    "difficulty": "Medium",
+    "solution": "Using Venn diagram: 50 numbers are divisible by 2, 33 numbers are divisible by 3 and 20 numbers are divisible by 5. Total number of numbers that are divisible by one or more among 2, 3 and 5 = 74. Hence, the required number = 100 - 74 = 26."
+  },
+  {
+    "id": 8,
+    "chapter": "number system",
+    "title": "For the product n(n + 1)(2n + 1), n ∈ N, which one of the following is not necessarily true?",
+    "options": [
+      "It is even",
+      "Divisible by 3",
+      "Divisible by the sum of the square of first n natural numbers",
+      "Never divisible by 237"
+    ],
+    "answer": 3,
+    "difficulty": "Medium",
+    "solution": "Since n(n + 1) are two consecutive integers, one of them will be even and thus their product will always be even. Also, sum of the squares of first 'n' natural numbers is given by n(n + 1)(2n + 1)/6. Hence, our product will always be divisible by this. The product is always divisible by 3. However, option (d) is not necessarily true. E.g. If n = 118, (2n + 1) = 237 or if n = 236, then (n + 1) = 237 or if n itself is 237, etc."
+  },
+  {
+    "id": 9,
+    "chapter": "number system",
+    "title": "If a number 774958A96B is to be divisible by 8 and 9, the respective values of A and B will be",
+    "options": [
+      "7 and 8",
+      "8 and 0",
+      "5 and 8",
+      "None of these"
+    ],
+    "answer": 1,
+    "difficulty": "Medium",
+    "solution": "For the number to be divisible by 9, the sum of the digits should be a multiple of 9. The sum of all the digits (excluding A and B) = 55. The next higher multiple of 9 is 63 or 72. Hence, the sum of A and B should either be 8 or 17. For a number to be divisible by 8, the number formed by its last three digits should be divisible by 8. The last three digits are 96B. The multiples of 8 beginning with 96 are 960 and 968. Hence, B can either be 0 or 8. Both satisfy our requirement."
+  },
+  {
+    "id": 10,
+    "chapter": "number system",
+    "title": "If n is any odd number greater than 1, then n(n² - 1) is",
+    "options": [
+      "divisible by 96 always",
+      "divisible by 48 always",
+      "divisible by 24 always",
+      "None of these"
+    ],
+    "answer": 2,
+    "difficulty": "Medium",
+    "solution": "n(n² - 1) = (n - 1)n(n + 1). This is the product of three consecutive integers with middle one being an odd integer. Since there are two consecutive even numbers, one of them will be a multiple of 4 and the other one will be a multiple of 2. Hence, the product will be a multiple of 8. Also since they are three consecutive integers, one of them will definitely be a multiple of 3. Hence, this product will always be divisible by (3 × 8) = 24."
+  },
+  {
+    "id": 11,
+    "chapter": "number system",
+    "title": "If m and n are integers divisible by 5, which of the following is not necessarily true?",
+    "options": [
+      "m - n is divisible by 5",
+      "m² - n² is divisible by 25",
+      "m + n is divisible by 10",
+      "None of these"
+    ],
+    "answer": 2,
+    "difficulty": "Medium",
+    "solution": "Using simulation with m = 10 and n = 5: m - n = 5, which is divisible by 5. m² - n² = 100 - 25 = 75, divisible by 25. m + n = 10 + 5 = 15 is not divisible by 10. For the sum of two multiples of 5 to be divisible by 10, either both of them should be odd (i.e. ending in 5) or both of them should be even (i.e. ending in 0)."
+  }
+]

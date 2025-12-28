@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Question | CAT Prep Zone</title>
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="../question.css" />
+</head>
+<body>
+  <div class="page-container">
+    <div id="navbar"></div>
+
+    <main class="content">
+      <section class="question-container" id="question-container">
+        <div id="timer" class="timer">Time taken: 0s</div>
+        <h2 id="question-title" class="question-text">Loading...</h2>
+
+        <form id="quiz-form"></form>
+
+        <div class="actions">
+          <button id="submit-btn" type="button">Submit</button>
+          <button id="clear-btn" type="button">Clear</button>
+        </div>
+
+        <div id="solution" class="solution" style="display:none">
+          <h3>Solution:</h3>
+          <p id="solution-text"></p>
+          <p id="final-time"></p>
+        </div>
+
+        <div class="nav-buttons">
+          <a id="back-to-list" class="nav-btn" href="#">← Back to Questions</a>
+          <a id="prev-btn" class="nav-btn" href="#">← Prev</a>
+          <a id="next-btn" class="nav-btn" href="#">Next →</a>
+        </div>
+      </section>
+    </main>
+
+    <div id="footer"></div>
+  </div>
+
+  <script src="../main.js" defer></script>
+  <script src="question-page_modern-maths.js" defer></script>
+</body>
+</html>
