@@ -1,0 +1,206 @@
+/* ---------------- GLOBAL RESET ---------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+html, body {
+  height: 100%;
+  background: #111;   /* Black background */
+  color: #f5f5f5;     /* Light text */
+}
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.content {
+  flex: 1;
+}
+
+/* ---------------- NAVBAR ---------------- */
+.navbar {
+  background: #2c2a2a;
+  color: #ffb347;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #ffb347;
+}
+
+.logo a {
+    color: orange;
+    text-decoration: none; /* remove underline */
+    font-weight: bold;
+  }
+
+.logo a:hover {
+    color: white;
+  }
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+.nav-links li a {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+.nav-links li a:hover {
+  color: #ffb347;
+}
+.menu-toggle {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: #ffb347;
+}
+
+/* ---------------- HERO ---------------- */
+.hero {
+  text-align: center;
+  padding: 1rem 1rem 2rem;
+  background: #ffb347;
+  color: #000;
+  position: relative;
+  z-index: 1;
+}
+.hero h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #000;
+}
+.hero p {
+  font-size: 1.1rem;
+  color: #f5f5f5;
+  opacity: 0.9;
+}
+
+/* ---------------- CHAPTERS GRID ---------------- */
+.tile-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  height: 100%;
+}
+.tile-link .tile {
+  background: #2c2a2a;
+  border-radius: 15px;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.6);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tile-link .tile:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px #ffb347;
+}
+.underline {
+  text-decoration: underline;
+  text-decoration-color: #ffb347;
+  text-decoration-thickness: 2px;
+}
+.chapters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 1rem 1rem;
+  max-width: 1200px;
+  margin: auto;
+  align-items: stretch;
+}
+.tile h2 {
+  margin-bottom: 1rem;
+  color: #ffb347;
+}
+
+.tile h2 i {
+  margin-right: 12px;   /* space between icon and text */
+  font-size: 1.4em;     /* make icons bigger */
+  vertical-align: middle; /* aligns icon with text */
+  color: #ffb347;       /* matches theme color */
+}
+
+
+.tile p {
+  font-size: 0.95rem;
+  color: #ddd;
+}
+
+/* ---------------- FOOTER ---------------- */
+.footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: #2c2a2a;
+  color: #ffb347;
+  margin-top: auto;
+}
+
+/* ---------------- RESPONSIVE ---------------- */
+@media (max-width: 992px) {
+  .hero h1 {
+    font-size: 1.75rem;
+  }
+  .hero p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background: #2c2a2a;
+    margin-top: 1rem;
+    padding: 1rem;
+  }
+  .nav-links.show {
+    display: flex;
+  }
+  .menu-toggle {
+    display: block;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+  .chapters {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 1.25rem;
+  }
+  .hero p {
+    font-size: 0.9rem;
+  }
+  .chapters {
+    grid-template-columns: 1fr;
+  }
+  .tile {
+    padding: 1.5rem;
+  }
+}

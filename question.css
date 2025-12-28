@@ -1,0 +1,103 @@
+.question-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #1c1c1c;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 179, 71, 0.2);
+}
+
+.timer {
+  text-align: right;
+  color: #ffb347;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.question-text {
+  margin-bottom: 1rem;
+  color: #f5f5f5;
+  font-size: 1.5rem;
+}
+
+.option {
+  display: block;
+  margin: 0.75rem 0;
+  padding: 1rem 1rem;
+  border-radius: 6px;
+  transition: background 0.3s;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.option input {
+  margin-right: 15px;
+  cursor: pointer;
+  /* Make radio button bigger */
+  width: 20px;
+  height: 20px;
+  accent-color: #ffb347;
+}
+
+.option:hover {
+  background: rgba(255, 179, 71, 0.1);
+}
+
+.option.correct {
+  background: rgba(0, 128, 0, 0.3);
+  border: 1px solid green;
+}
+
+.option.wrong {
+  background: rgba(255, 0, 0, 0.3);
+  border: 1px solid red;
+}
+
+.actions {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.actions button {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+#submit-btn {
+  background: #ffb347;
+  color: #000;
+}
+
+#clear-btn {
+  background: #333;
+  color: #f5f5f5;
+}
+
+.solution {
+  margin-top: 1.5rem;
+  background: #2c2a2a;
+  padding: 1rem;
+  border-radius: 6px;
+  border-left: 4px solid #ffb347;
+}
+
+.nav-buttons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-btn {
+  padding: 0.6rem 1.2rem;
+  background: #444;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+.nav-btn:hover {
+  background: #666;
+}
