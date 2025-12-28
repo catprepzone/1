@@ -1,5 +1,5 @@
 // main.js
-fetch("../layout.html")
+fetch("layout.html")
   .then(res => res.text())
   .then(data => {
     const parser = new DOMParser();
@@ -13,3 +13,4 @@ fetch("../layout.html")
     document.getElementById("footer").innerHTML =
       doc.getElementById("site-footer").innerHTML;
   });
+
