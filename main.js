@@ -1,5 +1,5 @@
 // main.js
-fetch("layout.html")
+fetch("../layout.html")
   .then(res => res.text())
   .then(data => {
     const parser = new DOMParser();
